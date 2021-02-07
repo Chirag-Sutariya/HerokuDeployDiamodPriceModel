@@ -13,8 +13,13 @@
 
 <body>
  <div class="login">
-	<h1>Diamond Price Prediction</h1>
-
+   	<h1>Diamond Price Prediction</h1>
+   	<h2>Hey there I am Chirag and I have deployed the ML model for the first time for diamond price prediction using Heroku cloud platform.</h2>
+   	<h3>Please fill out below fields and click on predict button to get diamond price.</h3>
+   	<h3>Color_code = 'D': 1, 'E': 2, 'F': 3, 'G': 4, 'H': 5, 'I': 6, 'J': 7</h>
+   	<h3>Cut_code = 'Ideal': 1, 'Premium': 2, 'Very Good': 3, 'Good': 4, 'Fair': 5</h>
+   	<h3>Clarity_code = IF':1, 'VVS1':2, 'VVS2':3, 'VS1':4, 'VS2':5, 'SI1':6, 'SI2':7, 'I1':8</h>
+   	
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     
