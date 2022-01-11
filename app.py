@@ -30,7 +30,7 @@ def predict():
     prediction = model.predict(input_vector)
     output = round(prediction[0], 2)
     
-    return render_template('index.html', prediction_text='Price of Diamond sould be $ {}'.format(output))
+    return render_template('index.html', prediction_text='Price of Diamond should be $ {}'.format(output))
 
 
 if __name__=='__main__':
